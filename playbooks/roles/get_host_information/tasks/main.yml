@@ -1,3 +1,7 @@
 - name: print host information
   debug:
     var: hostvars[inventory_hostname]
+
+- name: variable test
+  debug:
+    var: test_var
